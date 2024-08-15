@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regio-Personalvermittlung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #e60012; /* Hauptfarbe Rot */
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('koeln-dome.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .button {
+            background-color: #e60012;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #e60012;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .footer-nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .footer-nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        address p {
+            margin: 0;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#services">Unsere Dienstleistungen</a></li>
+                <li><a href="#training">Weiterbildung</a></li>
+                <li><a href="#careers">Karriere</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Ihre Experten für Personalvermittlung in Köln</h1>
+        <h2>Wir bringen Unternehmen und Bewerber zusammen – effizient und zuverlässig.</h2>
+        <a href="#contact" class="button">Jetzt Kontakt aufnehmen</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Über Regio-Personalvermittlung</h2>
+        <p>Regio-Personalvermittlung ist Ihr Partner für maßgeschneiderte Personalvermittlung in den Bereichen Metall, Elektro, Logistik, Produktion und Entsorgung. Mit jahrelanger Erfahrung und tiefgreifender regionaler Expertise unterstützen wir Unternehmen bei der Suche nach qualifiziertem Personal und helfen Bewerbern, den idealen Job zu finden. Unser Ziel ist es, durch unsere umfassende Branchenkenntnis und unser engagiertes Team, optimale Lösungen für alle Beteiligten zu bieten.</p>
+        <p>Thorsten Jäkel, wohnhaft in Erkelenz, führt Regio-Personalvermittlung mit Leidenschaft und Engagement. Seine umfassende Erfahrung und sein tiefes Verständnis für den regionalen Arbeitsmarkt machen ihn zu einem verlässlichen Partner für Personalvermittlung in Köln und Umgebung.</p>
+        <img src="teamfoto.jpg" alt="Unser Team">
+    </section>
+
+    <section id="services" class="section">
+        <h2>Unsere Dienstleistungen</h2>
+        <div>
+            <h3>Personalvermittlung für Metallbranche</h3>
+            <p>Wir finden die passenden Fachkräfte für Ihre metallverarbeitenden Betriebe – von Mechanikern bis zu Ingenieuren.</p>
+            <a href="#contact" class="cta-button">Mehr erfahren</a>
+        </div>
+        <div>
+            <h3>Personalvermittlung für Elektrobranche</h3>
+            <p>Von Elektrikern bis zu Technikern – wir vermitteln die Experten, die Ihre Elektroprojekte voranbringen.</p>
+            <a href="#contact" class="cta-button">Mehr erfahren</a>
+        </div>
+        <div>
+            <h3>Personalvermittlung für Logistik</h3>
+            <p>Logistikexperten, Lageristen und Fahrer – wir bringen Ihnen die richtigen Leute für eine effiziente Logistik.</p>
+            <a href="#contact" class="cta-button">Mehr erfahren</a>
+        </div>
+        <div>
+            <h3>Personalvermittlung für Produktion</h3>
+            <p>Unsere Vermittlungslösungen decken alle Bereiche der Produktion ab, von Maschinenbedienern bis zu Produktionsleitern.</p>
+            <a href="#contact" class="cta-button">Mehr erfahren</a>
+        </div>
+        <div>
+            <h3>Personalvermittlung für Entsorgung</h3>
+            <p>Finden Sie Fachkräfte für die Entsorgungsbranche, die zuverlässig und qualifiziert sind.</p>
+            <a href="#contact" class="cta-button">Mehr erfahren</a>
+        </div>
+    </section>
+
+    <section id="training" class="section">
+        <h2>Weiterbildungsmöglichkeiten</h2>
+        <p>Bildung ist der Schlüssel zu langfristigem Erfolg. Daher bieten wir Ihnen in Zusammenarbeit mit Partnern verschiedene Weiterbildungsmöglichkeiten, um Ihre Fähigkeiten zu erweitern und Ihre Karriere voranzutreiben. Entdecken Sie unser Angebot an Schulungen und Kursen, die speziell auf die Bedürfnisse der Branchen Metall, Elektro, Logistik, Produktion und Entsorgung abgestimmt sind.</p>
+        <a href="#contact" class="cta-button">Weiterbildungsmöglichkeiten ansehen</a>
+    </section>
+
+    <section id="careers" class="section">
+        <h2>Karriere bei Regio-Personalvermittlung</h2>
+        <p>Sie sind auf der Suche nach einer neuen Herausforderung? Werden Sie Teil unseres engagierten Teams und unterstützen Sie uns dabei, die besten Talente mit den besten Unternehmen zu verbinden. Wir bieten Ihnen ein dynamisches Arbeitsumfeld in Köln und zahlreiche Entwicklungsmöglichkeiten.</p>
+        <div>
+            <h3>Stellenangebot 1</h3>
+            <p>[Kurze Beschreibung der Stelle]</p>
+            <a href="#contact" class="cta-button">Jetzt bewerben</a>
+        </div>
+        <div>
+            <h3>Stellenangebot 2</h3>
+            <p>[Kurze Beschreibung der Stelle]</p>
+            <a href="#contact" class="cta-button">Jetzt bewerben</a>
+        </div>
+        <a href="#careers" class="cta-button">Weitere Stellenangebote ansehen</a>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Für weitere Informationen zu unseren Dienstleistungen oder zur Vereinbarung eines persönlichen Gesprächs stehen wir Ihnen gerne zur Verfügung. Kontaktieren Sie uns einfach über das untenstehende Formular oder telefonisch.</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Ihr Name" required>
+            <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+            <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
+            <button type="submit" class="button">Absenden</button>
+        </form>
+        <address>
+            <p>Adresse: Am Schneller 73, 41812 Erkelenz</p>
+            <p>Telefon: 0177 725 15 28</p>
+            <p>Fax: 02431 817 69</p>
+            <p>Festnetz: 02431 638 2</p>
+            <
